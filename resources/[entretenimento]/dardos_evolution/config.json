@@ -1,0 +1,17 @@
+{
+    "darts": {
+        "x": 1992.94,
+        "y": 3050.18,
+        "z": 46.24
+    },
+    "text": {
+        "join_message": "Aperte ~INPUT_CONTEXT~ para ~p~JOGAR DARDOS~w~",
+        "clear_message": "Aperte ~INPUT_VEH_EXIT~ para ~p~LIMPAR O ALVO~w~",
+        "info_message": "Dardos Jogados: ~p~{{darts_thrown}}~w~\nBullseyes: ~p~{{bullseyes}}~w~\nPontos: ~p~{{points}}~w~",
+        "controls": {
+            "throw": "Jogar",
+            "aim": "Mirar",
+            "exit": "Sair"
+        }
+    }
+}
