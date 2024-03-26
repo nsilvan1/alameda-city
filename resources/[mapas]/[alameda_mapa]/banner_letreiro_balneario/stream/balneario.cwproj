@@ -1,0 +1,64 @@
+<CodeWalkerProject>
+  <Name>New CodeWalker Project</Name>
+  <Version value="1" />
+  <YmapFilenames>
+    <Item>..\..\..\downloads\balne_vinewood\stream\apa_ch2_03.ymap</Item>
+    <Item>..\..\..\downloads\balne_vinewood\stream\apa_ch2_03_long_5.ymap</Item>
+    <Item>..\..\..\downloads\balne_vinewood\stream\apa_ch2_03_long_6.ymap</Item>
+    <Item>..\..\..\downloads\balne_vinewood\stream\apa_ch2_03_strm_0.ymap</Item>
+    <Item>..\..\..\downloads\balne_vinewood\stream\apa_ch2_03_strm_1.ymap</Item>
+    <Item>..\..\..\downloads\balne_vinewood\stream\ch2_03.ymap</Item>
+    <Item>..\..\..\downloads\balne_vinewood\stream\ch2_03_critical_2.ymap</Item>
+    <Item>..\..\..\downloads\balne_vinewood\stream\ch2_03_long_5.ymap</Item>
+    <Item>..\..\..\downloads\balne_vinewood\stream\ch2_03_long_6.ymap</Item>
+    <Item>..\..\..\downloads\balne_vinewood\stream\ch2_03_strm_0.ymap</Item>
+    <Item>..\..\..\downloads\balne_vinewood\stream\ch2_03_strm_1.ymap</Item>
+    <Item>..\..\..\downloads\balne_vinewood\stream\letreiro.ymap</Item>
+    <Item>banner_praca_rdshop.ymap</Item>
+  </YmapFilenames>
+  <YtypFilenames>
+    <Item>..\..\..\downloads\balne_vinewood\stream\balne.ytyp</Item>
+    <Item>..\..\..\downloads\balne_vinewood\stream\palmera.ytyp</Item>
+    <Item>..\..\..\downloads\balne_vinewood\stream\suportes.ytyp</Item>
+    <Item>telaopraca_rdshop.ytyp</Item>
+  </YtypFilenames>
+  <YbnFilenames>
+    <Item>..\..\..\downloads\balne_vinewood\stream\hi@ch2_03_2.ybn</Item>
+    <Item>..\..\..\downloads\balne_vinewood\stream\hi@ch2_03_7.ybn</Item>
+  </YbnFilenames>
+  <YndFilenames />
+  <YnvFilenames />
+  <TrainsFilenames />
+  <ScenarioFilenames />
+  <AudioRelFilenames />
+  <YdrFilenames>
+    <Item>..\..\..\downloads\balne_vinewood\stream\balne.ydr</Item>
+    <Item>..\..\..\downloads\balne_vinewood\stream\ch2_03_emis_sign_slod.ydr</Item>
+    <Item>..\..\..\downloads\balne_vinewood\stream\ch2_03_sign.ydr</Item>
+    <Item>..\..\..\downloads\balne_vinewood\stream\ch2_03_signdcal.ydr</Item>
+    <Item>..\..\..\downloads\balne_vinewood\stream\ch2_lod3_emissive_slod3.ydr</Item>
+    <Item>..\..\..\downloads\balne_vinewood\stream\ch2_lod3_slod3.ydr</Item>
+    <Item>..\..\..\downloads\balne_vinewood\stream\palmera.ydr</Item>
+    <Item>..\..\..\downloads\balne_vinewood\stream\sup_1.ydr</Item>
+    <Item>..\..\..\downloads\balne_vinewood\stream\sup_2.ydr</Item>
+    <Item>..\..\..\downloads\balne_vinewood\stream\sup_3.ydr</Item>
+    <Item>..\..\..\downloads\balne_vinewood\stream\sup_4.ydr</Item>
+    <Item>telao_gp_rdshop.ydr</Item>
+    <Item>telaopraca_rdshop.ydr</Item>
+  </YdrFilenames>
+  <YddFilenames>
+    <Item>..\..\..\downloads\balne_vinewood\stream\ch2_03_emis_sign_slod_children.ydd</Item>
+    <Item>..\..\..\downloads\balne_vinewood\stream\ch2_03_sign_slod_children.ydd</Item>
+    <Item>..\..\..\downloads\balne_vinewood\stream\ch2_lod3_s2b_children.ydd</Item>
+    <Item>..\..\..\downloads\balne_vinewood\stream\ch2_lod3_slod3_children.ydd</Item>
+  </YddFilenames>
+  <YftFilenames />
+  <YtdFilenames>
+    <Item>..\..\..\downloads\balne_vinewood\stream\balne.ytd</Item>
+    <Item>..\..\..\downloads\balne_vinewood\stream\ch2_03_sign.ytd</Item>
+    <Item>..\..\..\downloads\balne_vinewood\stream\ch2_lod3_s2b_children.ytd</Item>
+    <Item>..\..\..\downloads\balne_vinewood\stream\ch2_lod3_slod3.ytd</Item>
+    <Item>..\..\..\downloads\balne_vinewood\stream\palmeira.ytd</Item>
+    <Item>telaopraca_rdshop2.ytd</Item>
+  </YtdFilenames>
+</CodeWalkerProject>
