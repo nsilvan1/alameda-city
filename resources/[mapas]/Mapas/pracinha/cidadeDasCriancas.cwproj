@@ -1,0 +1,19 @@
+<CodeWalkerProject>
+  <Name>New CodeWalker Project</Name>
+  <Version value="1" />
+  <YmapFilenames>
+    <Item>casasarvore1.ymap</Item>
+    <Item>casaarvore2.ymap</Item>
+    <Item>boiaskynlago.ymap</Item>
+    <Item>hei_id2_rdb_long_0.ymap</Item>
+    <Item>hei_id2_21_e_long_0.ymap</Item>
+    <Item>hei_id2_rdb_critical_0.ymap</Item>
+  </YmapFilenames>
+  <YtypFilenames />
+  <YbnFilenames />
+  <YndFilenames />
+  <YnvFilenames />
+  <TrainsFilenames />
+  <ScenarioFilenames />
+  <AudioRelFilenames />
+</CodeWalkerProject>
