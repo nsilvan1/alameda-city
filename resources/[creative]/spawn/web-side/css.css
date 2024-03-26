@@ -1,0 +1,262 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap);
+
+*,
+body {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: Montserrat;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+:focus, body:focus {
+	outline: 0;
+}
+
+#muzica {
+   	display: none;
+}
+
+#charPage, #createPage, #spawnPage {
+	margin: 50px;
+	width: 300px;
+	display: none;
+	letter-spacing: 1px;
+	line-height: 20px;
+	position: absolute;
+}
+
+#spawnPage {
+	min-width: 300px;
+}
+
+#spawnPage .spawnBox {
+	border: 0;
+	color: #ccc;
+	width: 300px;
+	height: 50px;
+	display: flex;
+	font-size: 12px;
+	cursor: pointer;
+	text-align: center;
+	margin-bottom: 10px;
+	letter-spacing: 1px;
+	align-items: center;
+	border-radius: 3px;
+	justify-content: center;
+	text-transform: uppercase;
+	background: rgba(0, 11, 16, .90);
+}
+
+#spawnPage .spawnBox:hover {
+	background: rgba(0, 11, 16, .90);
+}
+
+#spawnPage #spawnNew {
+	border: 0;
+	color: #ccc;
+	width: 300px;
+	height: 60px;
+	display: flex;
+	cursor: pointer;
+	font-size: 16px;
+	border-radius: 3px;
+	align-items: center;
+	letter-spacing: 2px;
+	background: rgba(5, 70, 85, .90);
+	justify-content: center;
+	text-transform: uppercase;
+}
+
+#SelectPerson {
+	float: left;
+	width: 280px;
+	padding: 20px;
+	color: #06c4f3;
+	transition: all 1s;
+	border-top-left-radius: 13px;
+	border-top-right-radius: 13px;
+	background: rgba(0, 11, 16, .90);
+	margin-bottom: 2px;
+	font-size: 14px;
+	font-weight: 300;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: 10px solid #06c4f3;
+}
+
+/* BOTÃO NOVO PERSONAGEM*/
+
+#charPage .charNew { 
+	margin-top: 25px;
+	float: left;
+	width: 280px;
+	padding: 20px;
+	color: #04343f;
+	cursor: pointer;
+	transition: all 1s;
+	border-radius: 10px;
+	background: rgba(7, 184, 228);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.55);
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#charPage .charNew:hover {
+	background: rgba(25, 121, 155, 0.9);
+}
+
+#charPage .charBox {
+	float: left;
+	width: 300px;
+	padding: 10px;
+	color: #ccc;
+	cursor: pointer;
+	transition: all 1s;
+	background: rgba(0, 11, 16, .90);
+	border-radius: 3px;
+	margin-bottom: 2px;
+}
+
+#charPage .charBox:hover {
+	background: rgba(5, 70, 85, .90); /* BOTÃO azul*/
+}
+
+#charPage .charBox .charBoxTitle {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#charPage .charBox t1 {
+	color: #dadada;
+	font-size: 16px;
+	font-weight: 300;
+	font-weight: bold;
+}
+
+#charPage .charBox t2 {
+	color: #06c4f3;
+	font-size: 14px;
+	font-weight: 300;
+	font-weight: bold;
+	text-align: left;
+}
+
+#charPage .charBox t3 {
+	background-color: #0a0a0a;
+	padding: 5px;
+}
+
+#charPage .charBox b {
+	color: #dadada;
+	font-size: 12px;
+	font-weight: 300;
+	font-weight: bold;
+}
+
+#createCharForm {
+	display: flex;
+	flex-direction: column;
+}
+
+#createCharForm .formInput {
+	border: 0;
+	color: #ccc;
+	width: 260px;
+	height: 50px;
+	padding: 0 20px;
+	margin-top: 10px;
+	letter-spacing: 2px;
+	border-radius: 3px;
+	background: rgba(0, 11, 16, .90);
+}
+
+#createCharForm .formInput::placeholder {
+	color: #ccc;
+}
+
+#createCharForm .fnButton {
+	border: 0;
+	color: #ccc;
+	width: 300px;
+	height: 50px;
+	cursor: pointer;
+	margin-top: 10px;
+	letter-spacing: 2px;
+	border-radius: 20px;
+}
+
+#createCharForm .fnButton#createNew {
+	color: #067811;
+	font-weight: bold;
+	background: rgba(0, 11, 16, .90);
+}
+
+#createCharForm .fnButton#createBack {
+	color: #8b3232;
+	font-weight: bold;
+	background: rgba(0, 11, 16, .90);
+}
+
+#createCharForm .buttonGroup {
+	width: 300px;
+	margin-top: 10px;
+}
+
+#createCharForm .buttonGroup:first-child {
+	margin-top: 0;
+}
+
+#createCharForm .buttonGroup .buttonsBox {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#createCharForm .buttonGroup .buttonsBox button {
+	border: 0;
+	color: #ccc;
+	width: 145px;
+	height: 50px;
+	cursor: pointer;
+	border-radius: 3px;
+	letter-spacing: 2px;
+	background: rgba(0, 11, 16, .90);
+}
+
+#createCharForm .buttonGroup .buttonsBox button.active {
+	background: rgba(5, 70, 85, .90);
+}
+
+.imgNewPeson{
+	width: 975;
+    height: 650px;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    overflow: hidden;
+}
+
+#spawnNew2{
+	width: 300px;
+	height: 40px;
+	top: 82%;
+    left: 43%;
+	padding-top: 20px;
+	font-weight: bold;
+	position: fixed;
+	text-align: center;
+	color: #ccc;
+	cursor: pointer;
+	font-size: 16px;
+	border-radius: 3px;
+	background: #005a69;
+}

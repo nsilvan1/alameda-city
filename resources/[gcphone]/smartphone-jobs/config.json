@@ -1,0 +1,536 @@
+{
+  "locale": "pt-BR",
+  "currency": "BRL",
+  "uber": {
+    "pricing": {
+      "base": 8,
+      "per_km": 1237
+    },
+    "common_places": [
+      { "name": "Praça", "location": [175.15,-1003.64,29.34] },
+      { "name": "Hospital", "location": [-1882.28,-371.39,48.81] },
+      { "name": "Mecânica", "location": [875.52,-2090.55,30.51] },
+      { "name": "Pier", "location": [-1603.47,-1046.87,13.04] },
+      { "name": "Departamento Policial", "location": [417.45,-994.76,29.32] }
+
+      
+
+    ],
+    "cancelable": 1
+  },
+  "food": {
+    "categories": [
+      { "id": 1, "name": "Restaurantes" },
+      { "id": 2, "name": "Mecânica" },
+      { "id": 3, "name": "Farmácia" }
+    ],
+    "stores": [
+      {
+        "id": 1,
+        "name": "Cluckin Bell",
+        "icon": "https://cdn.discordapp.com/attachments/1020044589761036328/1021462798196285541/cluckinbell.png",
+        "category_id": 1,
+        "price": 1,
+        "fee": 3000,
+        "location": [-142.73, -259.74, 43.64],
+        "products": [
+          {
+            "id": 1,
+            "name": "Balde de Frango",
+            "description": "Delicioso balde de 500gr de frango frito.",
+            "price": 6000,
+            "section": "Chicken",
+            "image": "https://cdn.discordapp.com/attachments/1021464004713001100/1021464114981253160/baldedefrango.png",
+            "items": {
+              "baldedefrango": 1
+            }
+          },
+          {
+            "id": 2,
+            "name": "Frango Frito",
+            "description": "Deliciosa porção de 200gr de frango frito.",
+            "price": 5000,
+            "section": "Chicken",
+            "image": "https://cdn.discordapp.com/attachments/1021464004713001100/1021464116105318460/frangofrito.png",
+            "items": {
+              "frangofrito": 1
+            }
+          },
+          {
+            "id": 3,
+            "name": "Coca-Cola",
+            "description": "Deliciosa coca-cola geladinha.",
+            "price": 3000,
+            "section": "Bebidas",
+            "image": "https://cdn.discordapp.com/attachments/1021464004713001100/1118776872881373254/cola.png",
+            "items": {
+              "cola": 1
+            }
+          },
+          {
+            "id": 4,
+            "name": "Soda",
+            "description": "Deliciosa soda geladinha.",
+            "price": 3000,
+            "section": "Bebidas",
+            "image": "https://cdn.discordapp.com/attachments/1021464004713001100/1118776873086890024/soda.png",
+            "items": {
+               "soda": 1
+            }
+          },
+          {
+            "id": 5,
+            "name": "Maça do Amor",
+            "description": "Delicisa maça do amor com maça fresquinha",
+            "price": 3000,
+            "section": "Doces",
+            "image": "https://cdn.discordapp.com/attachments/1021464004713001100/1021464114301763675/applelove.png",
+            "items": {
+              "applelove": 1
+          }
+        }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Burgershot",
+        "icon": "https://cdn.discordapp.com/attachments/1020044589761036328/1021470493204811806/burguershot.png",
+        "category_id": 1,
+        "price": 1,
+        "fee": 3000,
+        "location": [-1193.38, -893.85, 13.99],
+        "products": [
+          {
+            "id": 1,
+            "name": "Heart Stopper",
+            "description": "Pão, 6 hambúrguer, molho especial, bacon, queijo cheddar, picles ,alface, tomate e ketckup.",
+            "price": 7500,
+            "section": "Lanches",
+            "image": "https://cdn.discordapp.com/attachments/1021464325719859220/1114248378193297598/heartstopper.png",
+            "items": {
+              "heartstopper": 1
+            }
+          },
+          {
+            "id": 2,
+            "name": "Money Shot",
+            "description": "Pão, 2 hambúrguer, molho especial, bacon, queijo cheddar, picles ,alface, tomate e ketckup.",
+            "price": 4500,
+            "section": "Lanches",
+            "image": "https://cdn.discordapp.com/attachments/1021464325719859220/1114248412733382697/moneyshot.png",
+            "items": {
+              "moneyshot": 1
+            }
+          },
+          {
+            "id": 3,
+            "name": "Torpedo",
+            "description": "Pão de baguete, 2 hambúrguer, molho especial, bacon, queijo cheddar, picles ,alface, tomate e ketckup.",
+            "price": 4500,
+            "section": "Lanches",
+            "image": "https://cdn.discordapp.com/attachments/1021464325719859220/1114248413593211091/torpedo.png",
+            "items": {
+              "torpedo": 1
+            }
+          },
+          {
+            "id": 4,
+            "name": "Bleeder",
+            "description": "Pão, 1 hambúrguer, molho especial, bacon, queijo cheddar, picles ,alface, tomate e ketckup.",
+            "price": 3500,
+            "section": "Lanches",
+            "image": "https://cdn.discordapp.com/attachments/1021464325719859220/1114249705392717894/bleeder.png",
+            "items": {
+              "bleeder": 1
+            }
+          },
+          {
+            "id": 5,
+            "name": "Meat Free",
+            "description": "Pão, 1 hambúrguer de sója, molho especial, bacon, queijo cheddar, picles ,alface, tomate e ketckup.",
+            "price": 3500,
+            "section": "Lanches",
+            "image": "https://cdn.discordapp.com/attachments/1021464325719859220/1114248378948272168/meatfree.png",
+            "items": {
+              "meatfree": 1
+            }
+          },
+          {
+            "id": 6,
+            "name": "Taco",
+            "description": "Carne, molho especial, bacon, queijo cheddar, alface, tomate.",
+            "price": 3500,
+            "section": "Lanches",
+            "image": "https://cdn.discordapp.com/attachments/1021464325719859220/1114248413337370685/taco.png",
+            "items": {
+              "taco": 1
+            }
+          },
+          {
+            "id": 7,
+            "name": "Wrap",
+            "description": "Presunto, queijo, molho especial, bacon, queijo cheddar, alface, tomate.",
+            "price": 3500,
+            "section": "Lanches",
+            "image": "https://cdn.discordapp.com/attachments/1021464325719859220/1114248414121693265/wrap.png",
+            "items": {
+              "wrap": 1
+            }
+          }, 
+          {
+            "id": 8,
+            "name": "Cebola Frita",
+            "description": "Deliciosa cebola frita.",
+            "price": 3500,
+            "section": "Acompanhamento",
+            "image": "https://cdn.discordapp.com/attachments/1021464325719859220/1114248413110882456/shotrings.png",
+            "items": {
+              "shotrings": 1
+            }
+          },  
+          {
+            "id": 9,
+            "name": "Batata Frita",
+            "description": "Deliciosa batata frita.",
+            "price": 3500,
+            "section": "Acompanhamento",
+            "image": "https://cdn.discordapp.com/attachments/1021464325719859220/1114248377908080791/fries.png",
+            "items": {
+              "fries": 1
+            }
+          },
+          {
+            "id": 10,
+            "name": "Torta de Maça",
+            "description": "Deliciosa torta de maça.",
+            "price": 3500,
+            "section": "Doces",
+            "image": "https://cdn.discordapp.com/attachments/1021464325719859220/1114248413870051458/torta.png",
+            "items": {
+              "torta": 1
+            }
+          },                                                               
+          {
+            "id": 11,
+            "name": "Milkshake",
+            "description": "Delicioso milkshake.",
+            "price": 3500,
+            "section": "Doces",
+            "image": "https://cdn.discordapp.com/attachments/1021464325719859220/1114248379262840883/milkshake.png",
+            "items": {
+              "milkshake": 1
+            }
+          },
+          {
+            "id": 12,
+            "name": "Sorvete de Chocolate",
+            "description": "Deliciosa sorvete de chocolate.",
+            "price": 3500,
+            "section": "Doces",
+            "image": "https://cdn.discordapp.com/attachments/1021464325719859220/1114248378411397261/icecream1.png",
+            "items": {
+              "icecream1": 1
+            }
+          },
+          {
+            "id": 13,
+            "name": "Sorvete de Baunilha",
+            "description": "Deliciosa sorvete de baunilha.",
+            "price": 3500,
+            "section": "Doces",
+            "image": "https://cdn.discordapp.com/attachments/1021464325719859220/1114248378654675044/icecream2.png",
+            "items": {
+              "icecream2": 1
+            }
+          },
+          {
+            "id": 14,
+            "name": "Mocatino",
+            "description": "Deliciosa mocatino.",
+            "price": 3500,
+            "section": "Doces",
+            "image": "https://cdn.discordapp.com/attachments/1021464325719859220/1021464583963164752/cappuccino.png",
+            "items": {
+              "cappuccino": 1
+            }
+          },
+          {
+            "id": 15,
+            "name": "Suco de Maracujá",
+            "description": "Delicioso suco de maracujá com frutas fresquinhas.",
+            "price": 5000,
+            "section": "Bebidas",
+            "image": "https://cdn.discordapp.com/attachments/1021464004713001100/1021464118546403338/passionjuice.png",
+            "items": {
+              "passionjuice": 1
+            }
+          },
+          {
+            "id": 16,
+            "name": "Suco de Uva",
+            "description": "Delicioso suco de uva com frutas fresquinhas.",
+            "price": 4500,
+            "section": "Bebidas",
+            "image": "https://cdn.discordapp.com/attachments/1021464004713001100/1021464116667367545/grapejuice.png",
+            "items": {
+              "grapejuice": 1
+            }
+          },
+          {
+            "id": 17,
+            "name": "Suco de Laranja",
+            "description": "Delicioso suco de laranja com frutas fresquinhas.",
+            "price": 4500,
+            "section": "Bebidas",
+            "image": "https://cdn.discordapp.com/attachments/1021464325719859220/1114252052923678830/orangejuice.png",
+            "items": {
+              "orangejuice": 1
+            }
+          }, 
+          {
+            "id": 18,
+            "name": "Suco de Morango",
+            "description": "Delicioso suco de Morango com frutas fresquinhas.",
+            "price": 4500,
+            "section": "Bebidas",
+            "image": "https://cdn.discordapp.com/attachments/1021464004713001100/1021464119196520549/strawberryjuice.png",
+            "items": {
+              "strawberryjuice": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Pearls Seafood",
+        "icon": "https://cdn.discordapp.com/attachments/1020044589761036328/1021717045764685824/pears_seafood.png",
+        "category_id": 1,
+        "price": 1,
+        "fee": 3000,
+        "location": [-1836.51, -1183.95, 14.31],
+        "products": [
+          {
+            "id": 1,
+            "name": "Nigiri Sushi",
+            "description": "Delicioso nigiri sushi com peixes fresquinhos.",
+            "price": 5000,
+            "section": "Peixe",
+            "image": "https://cdn.discordapp.com/attachments/1021717976199741443/1021718093023674428/nigirizushi.png",
+            "items": {
+              "nigirizushi": 1
+            }
+          },
+          {
+            "id": 2,
+            "name": "Sushi",
+            "description": "Delicioso sushi com peixes fresquinhos.",
+            "price": 5000,
+            "section": "Peixe",
+            "image": "https://cdn.discordapp.com/attachments/1021717976199741443/1021718093434732574/sushi.png",
+            "items": {
+              "sushi": 1
+            }
+          },
+          {
+            "id": 3,
+            "name": "Filé de Peixe",
+            "description": "Delicioso filé de peixe fresquinho.",
+            "price": 6000,
+            "section": "Peixe",
+            "image": "https://cdn.discordapp.com/attachments/1021717976199741443/1021718091970924574/cookedfishfillet.png",
+            "items": {
+              "cookedfishfillet": 1
+            }
+          },
+          {
+            "id": 4,
+            "name": "Lata de Tilápia",
+            "description": "Delicioso enlatado com sopá de tilápia.",
+            "price": 5000,
+            "section": "Peixe",
+            "image": "https://cdn.discordapp.com/attachments/1021717976199741443/1021718091236909066/cannedsoup.png",
+            "items": {
+              "cannedsoup": 1
+            }
+          },
+          {
+            "id": 5,
+            "name": "Lata de Lambari",
+            "description": "Delicioso enlatado com sopá de lambari.",
+            "price": 5000,
+            "section": "Peixe",
+            "image": "https://cdn.discordapp.com/attachments/1021717976199741443/1021718091597615104/canofbeans.png",
+            "items": {
+              "canofbeans": 1
+            }
+          },
+          {
+            "id": 6,
+            "name": "Coca-Cola",
+            "description": "Deliciosa coca-cola geladinha.",
+            "price": 3000,
+            "section": "Bebidas",
+            "image": "https://cdn.discordapp.com/attachments/1021464004713001100/1118776872881373254/cola.png",
+            "items": {
+              "cola": 1
+            }
+          },
+          {
+            "id": 7,
+            "name": "Soda",
+            "description": "Deliciosa soda geladinha.",
+            "price": 3000,
+            "section": "Bebidas",
+            "image": "https://cdn.discordapp.com/attachments/1021464004713001100/1118776873086890024/soda.png",
+            "items": {
+              "soda": 1
+            }
+          },
+          {
+            "id": 8,
+            "name": "cookies",
+            "description": "Delicioso cookies fresquinhos.",
+            "price": 3000,
+            "section": "Doces",
+            "image": "https://cdn.discordapp.com/attachments/1021717976199741443/1021718092566507550/cookies.png",
+            "items": {
+              "cookies": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Mecânica",
+        "icon": "https://cdn.discordapp.com/attachments/1020044589761036328/1032017607185928202/eatscustom.png",
+        "category_id": 2,
+        "price": 1,
+        "fee": 3000,
+        "location": [874.71,-2101.72,30.46],
+        "products": [
+          {
+            "id": 1,
+            "name": "Ferramentas Básicas",
+            "description": "Usada para concertar veículos.",
+            "price": 5000,
+            "section": "Produtos",
+            "image": "https://cdn.discordapp.com/attachments/1032015838330490911/1032015900720758864/toolbox.png",
+            "items": {
+              "toolbox": 1
+            }
+          },
+          {
+            "id": 2,
+            "name": "Pneu",
+            "description": "Pneu novo.",
+            "price": 1000,
+            "section": "Produtos",
+            "image": "https://cdn.discordapp.com/attachments/1032015838330490911/1032015901261832233/tyres.png",
+            "items": {
+              "tyres": 1
+            }
+          },
+          {
+            "id": 3,
+            "name": "Chave Inglesa",
+            "description": "Usado para troca de pneu.",
+            "price": 8000,
+            "section": "Produtos",
+            "image": "https://cdn.discordapp.com/attachments/1032015838330490911/1039112253850521630/wrench.png",
+            "items": {
+              "WEAPON_WRENCH": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Farmácia",
+        "icon": "https://cdn.discordapp.com/attachments/1020044589761036328/1021478524370034869/farmacia.png",
+        "category_id": 3,
+        "price": 1,
+        "fee": 3000,
+        "location": [92.23,-229.72,54.66],
+        "products": [
+          {
+            "id": 1,
+            "name": "Adrenalina",
+            "description": "Usada para reanimação do paciente.",
+            "price": 20000,
+            "section": "Medicamentos",
+            "image": "https://cdn.discordapp.com/attachments/1021479144573378682/1021480096315494550/adrenaline.png",
+            "items": {
+              "adrenaline": 1
+            }
+          },
+          {
+            "id": 2,
+            "name": "Analgésico",
+            "description": "Alivia sua dor em 20%.",
+            "price": 2500,
+            "section": "Medicamentos",
+            "image": "https://cdn.discordapp.com/attachments/1021479144573378682/1021480096718127114/analgesic.png",
+            "items": {
+              "analgesic": 1
+            }
+          },
+          {
+            "id": 3,
+            "name": "Gazes",
+            "description": "Estanca seu sangramento.",
+            "price": 1000,
+            "section": "Medicamentos",
+            "image": "https://cdn.discordapp.com/attachments/1021479144573378682/1021480097569591427/gauze.png",
+            "items": {
+              "gauze": 1
+            }
+          },
+          {
+            "id": 4,
+            "name": "Bandagem",
+            "description": "Alivia sua dor em 30%.",
+            "price": 4000,
+            "section": "Medicamentos",
+            "image": "https://cdn.discordapp.com/attachments/1021479144573378682/1021480097120792676/bandage.png",
+            "items": {
+              "bandage": 1
+            }
+          },
+          {
+            "id": 5,
+            "name": "Ritmoneuran",
+            "description": "Alivia seu stress em 50%.",
+            "price": 3000,
+            "section": "Medicamentos",
+            "image": "https://cdn.discordapp.com/attachments/1021479144573378682/1021480097951260733/ritmoneury.png",
+            "items": {
+              "ritmoneury": 1
+            }
+          },
+          {
+            "id": 6,
+            "name": "Sinkalmy",
+            "description": "Alivia seu stress 30%.",
+            "price": 2000,
+            "section": "Medicamentos",
+            "image": "https://cdn.discordapp.com/attachments/1021479144573378682/1021480098320363520/sinkalmy.png",
+            "items": {
+              "sinkalmy": 1
+            }
+          } ,
+          {
+            "id": 7,
+            "name": "Medkit",
+            "description": "Alivia sua dor em 50%.",
+            "price": 15000,
+            "section": "Medicamentos",
+            "image": "https://cdn.discordapp.com/attachments/1021479144573378682/1032012630832980179/medkit.png",
+            "items": {
+              "medkit": 1
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

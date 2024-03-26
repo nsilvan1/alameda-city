@@ -1,0 +1,282 @@
+html,body {
+	font-size: 13px;
+	overflow: hidden;
+	font-family: "Roboto";
+	background: transparent !important;
+}
+
+#notifications {
+	right: 50px;
+	bottom: 325px;
+	display: flex;
+	color: #c6c6c6;
+	max-width: 400px;
+	letter-spacing: .5px;
+	align-items: flex-end;
+	flex-direction: column;
+	position: absolute !important;
+}
+
+#notifications>div {
+	color: #c6c6c6;
+	margin-top: 12px;
+	line-height: 20px;
+	position: relative;
+	border-radius: 4px;
+	text-shadow: 1px 1px #000;
+	padding: 15px 20px 15px 45px;
+}
+
+#notifications>div::after {
+	left: 5%;
+	width: 90%;
+	height: 4px;
+	content: "";
+	bottom: -2px;
+	position: absolute;
+	border-radius: 4px;
+	background: rgba(150, 150, 150, .75);
+}
+
+#notifications b {
+	color: #fff;
+	font-weight: 300;
+}
+
+.timer-bar {
+	left: 5%;
+	width: 90%;
+	height: 4px;
+	z-index: 9999;
+	margin-top: 13px;
+	position: absolute;
+	border-radius: 4px;
+	background-color: #fafafa;
+}
+
+#verde {
+	background: rgba(15, 15, 15, .75) url("images/check.png") no-repeat center left 11px;
+}
+
+#verde>.timer-bar {
+	background-color: #a3c846 !important;
+}
+#pm {
+	background: rgba(15, 15, 15, .75) url("images/pm.png") no-repeat center left 11px;
+}
+
+#pm>.timer-bar {
+	background-color: #2f67ab !important;
+}
+#bennys {
+	background: rgba(15, 15, 15, .75) url("images/bennys.png") no-repeat center left 11px;
+}
+
+#bennys>.timer-bar {
+	background-color: #57150a !important;
+}
+
+#med {
+	background: rgba(15, 15, 15, .75) url("images/med.png") no-repeat center left 11px;
+}
+
+#med>.timer-bar {
+	background-color: #ff5d41 !important;
+}
+
+#acad {
+	background: rgba(15, 15, 15, .75) url("images/acad.png") no-repeat center left 11px;
+}
+
+#acad>.timer-bar {
+	background-color: #2c2c2c !important;
+}
+
+#vermelho {
+	background: rgba(15, 15, 15, .75) url("images/cancel.png") no-repeat center left 11px;
+}
+
+#vermelho>.timer-bar {
+	background-color: #e61a42 !important;
+}
+
+#blood {
+	background: rgba(15, 15, 15, .75) url("images/blood.png") no-repeat center left 11px;
+}
+
+#blood>.timer-bar {
+	background-color: #fb5858 !important;
+}
+
+#hunger {
+	background: rgba(15, 15, 15, .75) url("images/hunger.png") no-repeat center left 11px;
+}
+
+#hunger>.timer-bar {
+	background-color: #fc913a !important;
+}
+
+#thirst {
+	background: rgba(15, 15, 15, .75) url("images/thirst.png") no-repeat center left 11px;
+}
+
+#thirst>.timer-bar {
+	background-color: #669ae1 !important;
+}
+
+#azul {
+	background: rgba(15, 15, 15, .75) url("images/ring.png") no-repeat center left 11px;
+}
+
+#azul>.timer-bar {
+	background-color: #6fa9dc !important;
+}
+
+#amarelo {
+	background: rgba(15, 15, 15, .75) url("images/important.png") no-repeat center left 11px;
+}
+
+#roxo {
+	background: rgba(15,15,15,.75) url("images/prefe.png") no-repeat center left 11px;
+}
+#roxo > .timer-bar {
+    background-color: #6e2c81 !important;
+}
+#branco {
+	background: rgba(15,15,15,.75) url("images/prefe2.png") no-repeat center left 11px;
+}
+
+#branco > .timer-bar {
+    background-color: #ffffff !important;
+}
+#amarelomec {
+	background: rgba(15,15,15,.75) url("images/mec.png") no-repeat center left 11px;
+}
+
+#amarelomec > .timer-bar {
+    background-color: #d2dd1d !important;
+}
+
+#vermelhopolice {
+	background: rgba(15,15,15,.75) url("images/police.png") no-repeat center left 11px;
+}
+
+#vermelhopolice > .timer-bar {
+    background-color: #ed1212 !important;
+}
+#amarelo>.timer-bar {
+	background-color: #ffb400 !important;
+}
+
+#chapeu {
+	background: rgba(15, 15, 15, .75) url("images/chapeu.png") no-repeat center left 11px;
+}
+
+#chapeu>.timer-bar {
+	background-color: #ffb400 !important;
+}
+
+#locked {
+	background: rgba(15, 15, 15, .75) url("images/locked.png") no-repeat center left 11px;
+}
+
+#locked>.timer-bar {
+	background-color: #6eb969 !important;
+}
+
+#gun {
+	background: rgba(15, 15, 15, .75) url("images/gun.png") no-repeat center left 11px;
+}
+
+#gun>.timer-bar {
+	background-color: #ffb400 !important;
+}
+
+#cabo {
+	background: rgba(15, 15, 15, .75) url("images/cabo.png") no-repeat center left 11px;
+}
+
+#cabo>.timer-bar {
+	background-color: #ffb400 !important;
+}
+
+#armacao {
+	background: rgba(15, 15, 15, .75) url("images/armacao.png") no-repeat center left 11px;
+}
+
+#armacao>.timer-bar {
+	background-color: #ffb400 !important;
+}
+
+#arma {
+	background: rgba(15, 15, 15, .75) url("images/arma.png") no-repeat center left 11px;
+}
+
+#arma>.timer-bar {
+	background-color: #ffb400 !important;
+}
+#bullet {
+	background: rgba(15, 15, 15, .75) url("images/bullet.png") no-repeat center left 11px;
+}
+
+#bullet>.timer-bar {
+	background-color: #ffb400 !important;
+}
+
+#unlocked {
+	background: rgba(15, 15, 15, .75) url("images/unlocked.png") no-repeat center left 11px;
+}
+
+#unlocked>.timer-bar {
+	background-color: #e62441 !important;
+}
+
+#default {
+	padding: 15px 20px !important;
+	line-height: 20px !important;
+	background: rgba(15, 15, 15, .75);
+}
+
+#default>.timer-bar {
+	background-color: #fff !important;
+}
+
+#Shortcuts {
+	width: 100%;
+	height: 95%;
+	display: none;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+#Shortcuts div {
+	float: left;
+	width: 100px;
+	height: 100px;
+	font-size: 10px;
+	margin-right: 25px;
+	border-radius: 3px;
+	position: relative;
+	background-position: center;
+	background-repeat: no-repeat;
+	background: rgba(15,15,15,.75);
+	background-size: 95% !important;
+}
+
+#Shortcuts div:last-child {
+	margin-right: 0;
+}
+
+#Shortcuts b {
+	left: 35%;
+	top: -5px;
+	font-size: 11px;
+	font-weight: 300;
+	padding: 8px 10px;
+	text-shadow: none;
+	position: relative;
+	letter-spacing: 1px;
+	font-family: "Roboto";
+	border-radius: 50%;
+	background: rgba(255, 255, 255, 0.85);
+}

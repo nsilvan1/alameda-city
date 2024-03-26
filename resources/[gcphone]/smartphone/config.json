@@ -1,0 +1,57 @@
+{
+  "token": "MN295-YJCE4-K6F7S-M5PBE",
+  "client": {
+    "bankType": "picpay",
+    "uploadServer": "https://discord.com/api/webhooks/1118166741370028183/cRrDrWfSHwvsWpSYy_MmwU72yzulC0ilt1AbuMy5pfnXnAjwwmpB42Gm2WuiczDJn8A1",
+    "videoServer": "ws:/131.196.196.230:8080",
+    "case": "iphonexs",
+    "isAndroid": false,
+
+    "apps": {
+      "calculator": "https://celularautenticacaofivem.xyz/imagens/calculator.webp",
+      "notes": "https://celularautenticacaofivem.xyz/imagens/notes.webp",
+      "settings": "https://fivem.jesteriruka.dev/apps/settings.png",
+      "contacts": "https://images-ext-1.discordapp.net/external/X6eRPTrhl1TEFjfXX9Jk9eHpym4njkyXioj6EDO8am8/https/fivem.jesteriruka.dev/apps/phone.png",
+      "sms": "https://fivem.jesteriruka.dev/apps/sms.webp",
+      "gallery": "https://fivem.jesteriruka.dev/apps/photos.webp",
+      "phone": "https://fivem.jesteriruka.dev/apps/phone.png",
+      "facetime": "https://celularautenticacaofivem.xyz/imagens/facetime.webp"
+      
+      
+      },
+
+      
+      "apps_android": {
+        "calculator": "https://celularautenticacaofivem.xyz/imagens/calculator.webp",
+        "notes": "https://celularautenticacaofivem.xyz/imagens/notes.webp",
+        "settings": "https://celularautenticacaofivem.xyz/imagens/settings.webp",
+        "contacts": "https://celularautenticacaofivem.xyz/imagens/contacts.webp",
+        "sms": "https://celularautenticacaofivem.xyz/imagens/sms.webp",
+        "gallery": "https://celularautenticacaofivem.xyz/imagens/gallery.webp",
+        "phone": "https://celularautenticacaofivem.xyz/imagens/phone.webp",
+        "facetime": "https://celularautenticacaofivem.xyz/imagens/facetime.webp"
+        
+        },
+
+
+
+    "useGameClock": false,
+    "phone_template": "XXXX",
+    "backgroundURL": "https://cdn.discordapp.com/attachments/1020044589761036328/1158804776801275996/background.png",
+    "disabledApps": []
+  },
+  
+  "call_mode": "pma-voice",
+  "webhookURL": "https://discord.com/api/webhooks/1118166991245676615/ZL8e_81vyHz6hIuQoZ6gM00TEHc8eLPLgg0AM7mLvUqA192j2WlMIFCwVD0dPWdp45NG",
+  "instagram_verify": "instagram.verificado",
+  "moderator": "owner.permissao",
+  "item": "cellphone",
+  "base": "creative_v5",
+  
+  "services": [
+    { "name": "Policia", "number":"190", "permission":"Police" },
+    { "name": "Paramédico", "number":"192", "permission":"Paramedic" },
+    { "name": "Mecânico", "number":"0800 042", "permission":"Mechanic" },
+    { "name": "Taxi", "number":"0800 075", "permission":"Taxi" }
+  ]
+}
