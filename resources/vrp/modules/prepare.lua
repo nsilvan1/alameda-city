@@ -33,7 +33,8 @@ vRP.prepare("bank/remValue","UPDATE summerz_bank SET value = value - @value WHER
 -----------------------------------------------------------------------------------------------------------------------------------------
 vRP.prepare("accounts/getInfos","SELECT * FROM summerz_accounts WHERE steam = @steam")
 vRP.prepare("accounts/newAccount","INSERT INTO summerz_accounts(steam) VALUES(@steam)")
-vRP.prepare("accounts/updateWhitelist","UPDATE summerz_accounts SET whitelist = 0 WHERE steam = @steam")
+-- whitelist = 1 WL FECHADA - whitelist = 0 SEM WL
+vRP.prepare("accounts/updateWhitelist","UPDATE summerz_accounts SET whitelist = 1 WHERE steam = @steam")
 vRP.prepare("accounts/removeGems","UPDATE summerz_accounts SET gems = gems - @gems WHERE steam = @steam")
 vRP.prepare("accounts/setPriority","UPDATE summerz_accounts SET priority = @priority WHERE steam = @steam")
 vRP.prepare("accounts/infosUpdatechars","UPDATE summerz_accounts SET chars = chars + 1 WHERE steam = @steam")
