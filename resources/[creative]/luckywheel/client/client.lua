@@ -53,7 +53,7 @@ CreateThread(function()
 					SetModelAsNoLongerNeeded(luckyHash)
 
 					Vehicle = CreateVehicle(vehHash,1100.04,219.87,-47.75,200.0,false,false)
-					SetVehicleNumberPlateText(Vehicle,"ALAMEDA")
+					SetVehicleNumberPlateText(Vehicle,"HIMALAIA")
 					SetVehicleOnGroundProperly(Vehicle)
 					FreezeEntityPosition(Vehicle,true)
 					SetEntityInvincible(Vehicle,true)

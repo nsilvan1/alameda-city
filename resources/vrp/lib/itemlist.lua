@@ -18,7 +18,7 @@ local itemlist = {
 	},
 	["coins"] = {
 		["index"] = "coins",
-		["name"] = "Alameda Coins",
+		["name"] = "Himalaia Coins",
 		["desc"] = "<green>Usado para compra de item e aposta</green>",
 		["type"] = "Usável",
 		["weight"] = 0.0
@@ -1108,7 +1108,7 @@ local itemlist = {
 	},
 	["combo1"] = {
 		["index"] = "combo1",
-		["name"] = "Combo Alameda",
+		["name"] = "Combo Himalaia",
 		["type"] = "Usável",
 		["weight"] = 3.00,
 		["scape"] = true,
